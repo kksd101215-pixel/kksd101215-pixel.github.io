@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Riddle 4</title>
+
+<style>
+body{font-family:Arial;background:#111;color:white;text-align:center;padding:40px;}
+.container{background:#222;padding:20px;border-radius:10px;}
+</style>
+
+<script>
+function checkAnswer(){
+let answer=document.getElementById("answer").value.toLowerCase();
+if(answer==="shadow"){
+window.location.href="riddle5.html";
+}else{
+alert("Wrong answer!");
+}
+}
+</script>
+
+</head>
+<body>
+
+<div class="container">
+<h2>Riddle 4</h2>
+
+<p>I follow you everywhere but never speak. What am I?</p>
+
+<input id="answer">
+<br>
+<button onclick="checkAnswer()">Submit</button>
+
+</div>
+
+</body>
+</html>
